@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="http://rawgit.com/ivan111/vtree/master/css/vtree.css">
+<link rel="stylesheet" type="text/css" href="https://rawgit.com/ivan111/vtree/master/css/vtree.css">
 <style>svg.vtree { width:100%; height:500px; box-shadow:none; }</style>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
