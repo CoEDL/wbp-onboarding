@@ -83,29 +83,28 @@ Consider [Phrase Structure Rules](https://en.wikipedia.org/wiki/Phrase_structure
 
 <img width="300" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Cgisf-tgg.svg">
 
-One machine-readable way of representing the tree above is to use the JavaScript Object Notation (JSON). As shown in the code block below, the JSON object `S`, has 2 items within it (NP and VP), the first of which also has two items within it (A and NP). Thus, the data at `S[0][0].value` is the string `Colorless` (JSON indices start from 0, not 1).
+One machine-readable way of representing the tree above is to use the JavaScript Object Notation (JSON). As shown in the code block below, the JSON object `S`, has 2 items within it (NP and VP), the first of which also has two items within it (A and NP).
 
 ```json
 {
-	"S" : 
-		[
-			[
-				{ "node": "A", "value": "Colorless" },
-				[
-					{ "node": "A", "value": "green" },
-					{ "node": "NP", "value": "ideas" }
-				]
-			],
-			
-			[
-				{ "node": "V",   "value": "sleep" },
-				{ "node": "Adv", "value": "furiously" }
-			]
-		]
+  "S": [
+        [
+          { "node": "A", "value": "Colorless" },
+          [
+            { "node": "A",  "value": "green" },
+            { "node": "NP", "value": "ideas" }
+          ]
+        ],
+        [
+          { "node": "V",   "value": "sleep" },
+          { "node": "Adv", "value": "furiously" }
+        ]
+      ]
 }
 ```
 
-Here's an interactive display of the same JSON data (click and drag to explore, use scroll wheel or touch pad to zoom in/out):
+Below is an interactive display of the same JSON data (click and drag to explore, use scroll wheel or touch pad to zoom in/out).
+From this view, we can clearly see that the data at `S[0][0].value` is the string `Colorless` (JSON indices start from 0, not 1).
 
 <div id="colorless-json" style="display:none">
 {"S":[[{"node":"A","value":"Colorless"},[{"node":"A","value":"green"},{"node":"NP","value":"ideas"}]],[{"node":"V","value":"sleep"},{"node":"Adv","value":"furiously"}]]}
