@@ -1,4 +1,14 @@
-## Welcome to the Warlpiri dictionary project
+# Welcome to the Warlpiri dictionary project
+{:.no_toc}
+
+This documentation introduces the project and the processes followed by contributors working on the Warlpiri dictionary project. A 'big picture' view of the project and its various components are given on this landing page; more detailed information can be found by following the various hyperlinks (e.g. [backslash codes](backslash-codes)).
+
+# Contents
+{:.no_toc}
+
+{:toc}
+
+The primary aim of the documentation will be to give a 'big picture' view of 
 
 You can use the [editor on GitHub](https://github.com/CoEDL/wbp-onboarding/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
